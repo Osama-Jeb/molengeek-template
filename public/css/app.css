@@ -1,6 +1,7 @@
+/* TODO: Add fonts */
+
 body {
     position: relative;
-    ;
 }
 
 .navi {
@@ -20,7 +21,6 @@ body {
 
 .items {
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .items:hover {
@@ -146,7 +146,7 @@ button {
 .boxes {
     width: 100%;
     margin: 10px;
-    padding: 5px;
+    padding:0 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,44 +156,44 @@ button {
     text-align: start;
 }
 
-#code-box {
+.code-box {
     border: 3px solid #964CA0;
 }
 
-#code-btn {
+.code-btn {
     background-color: #964CA0;
 }
 
-#digital-box {
+.digital-box {
     border: 3px solid #E63D1C;
 }
 
-#digital-btn {
+.digital-btn {
     background-color: #E63D1C;
 
 }
 
-#web-box {
+.web-box {
     border: 3px solid #47AB34;
 }
 
-#web-btn {
+.web-btn {
     background-color: #47AB34;
 }
 
-#aws-box {
+.aws-box {
     border: 3px solid #F2D202;
 }
 
-#aws-btn {
+.aws-btn {
     background-color: #F2D202;
 }
 
-#sale-box {
+.sale-box {
     border: 3px solid #2071B7;
 }
 
-#sale-btn {
+.sale-btn {
     background-color: #2071B7;
 }
 
