@@ -1,0 +1,206 @@
+body {
+    position: relative;;
+}
+
+.navi {
+    background-color: white;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.items:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    right: 0;
+    padding: 15px;
+}
+
+#contact {
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover {
+    background-color: #964CA0;
+    color: white;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1030;
+}
+
+.bg-img {
+    background-image: url(../images/bg-img.jpg);
+    height: 1000px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-img-text {
+    color: white;
+    position: absolute;
+    top: 25%;
+}
+
+.bg-purple {
+    background-color: #964CA0;
+}
+
+.txt-purple {
+    color: purple;
+}
+
+.what {
+    width: 1100px;
+    margin-left: 150px;
+}
+
+.bg-map {
+    position: relative;
+}
+
+.map {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+}
+
+.bg-contact {
+    background-color: #964CA0;
+    height: 550px;
+}
+
+.contact-txt {
+    position: absolute;
+    right: 10%;
+}
+
+.newsletter {
+    height: 150px;
+}
+
+button:hover {
+    background-color: #964CA0;
+}
+
+.bg-gray {
+    background-color: #3C3C3C;
+}
+
+.contain {
+    position: relative;
+    height: 1400px;
+}
+
+#dropdown {
+    width: 100%;
+}
+
+.info {
+    height: 80%;
+    position: absolute;
+    left: 20%;
+}
+
+.card:hover {
+    background-color: #964CA0;
+}
+
+a {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: rebeccapurple;
+    color: white;
+    box-shadow: 3px 3px gray;
+}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.courses {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.boxes {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-text {
+    text-align: start;
+}
+
+#code-box {
+    border: 3px solid #964CA0;
+}
+
+#code-btn {
+    background-color: #964CA0;
+}
+
+#digital-box {
+    border: 3px solid #E63D1C;
+}
+
+#digital-btn {
+    background-color: #E63D1C;
+
+}
+
+#web-box {
+    border: 3px solid #47AB34;
+}
+
+#web-btn {
+    background-color: #47AB34;
+}
+
+#aws-box {
+    border: 3px solid #F2D202;
+}
+
+#aws-btn {
+    background-color: #F2D202;
+}
+
+#sale-box {
+    border: 3px solid #2071B7;
+}
+
+#sale-btn {
+    background-color: #2071B7;
+}
+
+footer {
+    height: 200px;
+}
