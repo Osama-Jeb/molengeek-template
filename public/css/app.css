@@ -1,5 +1,6 @@
 body {
-    position: relative;;
+    position: relative;
+    ;
 }
 
 .navi {
@@ -19,7 +20,7 @@ body {
 
 .items {
     padding: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .items:hover {
@@ -126,17 +127,12 @@ button:hover {
     background-color: #964CA0;
 }
 
-a {
-    color: white;
-}
-
 button {
     padding: 10px;
     border: rebeccapurple;
     color: white;
     box-shadow: 3px 3px gray;
 }
-
 
 .bg-white {
     background-color: white;
@@ -201,6 +197,6 @@ button {
     background-color: #2071B7;
 }
 
-footer {
-    height: 200px;
+.txt-gray{
+    color: gray;
 }
