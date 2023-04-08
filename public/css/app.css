@@ -1,12 +1,13 @@
-/* TODO: Add fonts */
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body {
     position: relative;
 }
 
 .navi {
-    background-color: white;
-    height: 60px;
+    background-color: whitesmoke;
+    height: 10vh;
     position: sticky;
     top: 0;
     z-index: 1030;
@@ -51,7 +52,7 @@ body {
 
 .bg-img {
     background-image: url(../images/bg-img.jpg);
-    height: 1000px;
+    height: 100vh;
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: relative;
@@ -87,7 +88,7 @@ body {
 
 .bg-contact {
     background-color: #964CA0;
-    height: 550px;
+    height: 80vh;
 }
 
 .contact-txt {
@@ -96,7 +97,7 @@ body {
 }
 
 .newsletter {
-    height: 150px;
+    height: 25vh;
 }
 
 button:hover {
@@ -107,19 +108,8 @@ button:hover {
     background-color: #3C3C3C;
 }
 
-.contain {
-    position: relative;
-    height: 1400px;
-}
-
 #dropdown {
     width: 100%;
-}
-
-.info {
-    height: 80%;
-    position: absolute;
-    left: 20%;
 }
 
 .card:hover {
@@ -138,8 +128,8 @@ button {
 }
 
 .courses {
-    width: 80%;
-    margin-left: 10%;
+    width: 175vh;
+    margin: 0 auto;
 }
 
 .boxes {
@@ -169,7 +159,6 @@ button {
 
 .digital-btn {
     background-color: #E63D1C;
-
 }
 
 .web-box {
